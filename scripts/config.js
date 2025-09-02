@@ -843,7 +843,7 @@ const getConfig = () => {
 }
 
 // determine config
-export let config = getConfig();
+export let config = ritconfig;
 
 //Add "shared"/common data sources that do not require site identification strings
 config.dataSources.push(...[
