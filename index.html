@@ -79,6 +79,13 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		
+		<style>
+			.alert-warning {
+				text-shadow: none !important;
+				text-align: center;
+			}
+		</style>
 	</head>
 	
 	<body id="koBindingContext">
@@ -95,6 +102,10 @@
 						</div>
 					</div>
 					<!-- END Title Row -->
+
+					<div class="alert alert-warning" role="alert">
+						A more updated version of this app is available at <a href="https://riverstatus.openrowing.com/#RIT">https://riverstatus.openrowing.com/#RIT</a>
+					</div>
 					
 					<button data-bind="click: toggleUnit" class="btn btn-info floating-action-button" id="tempToggle"><span data-bind="text: oppositeTempUnit"></span></button>
 					<!--  BEGIN Current Conditions, Zone, & Rules Row -->
